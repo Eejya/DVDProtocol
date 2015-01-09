@@ -1,0 +1,103 @@
+ffprobe version N-68763-gbabd94e Copyright (c) 2007-2014 the FFmpeg developers
+  built on Jan  9 2015 13:33:37 with gcc 4.8 (Ubuntu 4.8.2-19ubuntu1)
+  configuration: --enable-libdvdnav
+  libavutil      54. 15.100 / 54. 15.100
+  libavcodec     56. 19.100 / 56. 19.100
+  libavformat    56. 16.102 / 56. 16.102
+  libavdevice    56.  3.100 / 56.  3.100
+  libavfilter     5.  6.100 /  5.  6.100
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  1.100 /  1.  1.100
+libdvdnav: Using dvdnav version 4.2.1
+*** Zero check failed in ifo_read.c:2161
+    for vts_attributes->vtstt_audio_attr[i] = 0x1023616a00000000
+libdvdnav: DVD Title: New
+libdvdnav: DVD Serial Number: 3261241DCD9EDBE2
+libdvdnav: DVD Title (Alternative): 
+libdvdnav: Unable to find map file '/home/eejya/.dvdnav/New.map'
+libdvdnav: DVD disk reports itself with Region mask 0x00000000. Regions: 1 2 3 4 5 6 7 8
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VIDEO_TS.VOB at 0x0000011f
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_0.VOB at 0x000019cb
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x0000fa6f
+libdvdread: Elapsed time 1
+libdvdread: Found 1 VTS's
+libdvdread: Elapsed time 1
+libdvdnav: Language 'en' not found, using 'ja' instead
+libdvdnav: Menu Languages available: ja 
+*** Zero check failed in ifo_read.c:708
+    for vtsi_mat->vts_audio_attr[i] = 0x1023616a00000000
+[dvd @ 0x1fa0a80] The duration of the chapter no. 1 is 773730000
+[dvd @ 0x1fa0a80] Title with maximum duration is 1
+*** Zero check failed in ifo_read.c:708
+    for vtsi_mat->vts_audio_attr[i] = 0x1023616a00000000
+[dvd @ 0x1fa0a80] Hop Channel Packet
+[dvd @ 0x1fa0a80] Highlight Packet
+[dvd @ 0x1fa0a80] VTS Change Packet
+[dvd @ 0x1fa0a80] Cell Change Packet
+[dvd @ 0x1fa0a80] SPU CLUT Packet
+[dvd @ 0x1fa0a80] SPU Stream Change
+[dvd @ 0x1fa0a80] Audio Stream Change
+[dvd @ 0x1fa0a80] Nav Packet
+[dvd @ 0x1fa0a80] Copied the buffer value to buf_out
+    Last message repeated 38 times
+[dvd @ 0x1fa0a80] Nav Packet
+[dvd @ 0x1fa0a80] Copied the buffer value to buf_out
+    Last message repeated 43 times
+[dvd @ 0x1fa0a80] Nav Packet
+[dvd @ 0x1fa0a80] Copied the buffer value to buf_out
+    Last message repeated 45 times
+[dvd @ 0x1fa0a80] Nav Packet
+[dvd @ 0x1fa0a80] Copied the buffer value to buf_out
+    Last message repeated 49 times
+[dvd @ 0x1fa0a80] Nav Packet
+[dvd @ 0x1fa0a80] Copied the buffer value to buf_out
+    Last message repeated 59 times
+[dvd @ 0x1fa0a80] Nav Packet
+[dvd @ 0x1fa0a80] Copied the buffer value to buf_out
+    Last message repeated 62 times
+[dvd @ 0x1fa0a80] Nav Packet
+[dvd @ 0x1fa0a80] Copied the buffer value to buf_out
+    Last message repeated 73 times
+[dvd @ 0x1fa0a80] Nav Packet
+[dvd @ 0x1fa0a80] Copied the buffer value to buf_out
+    Last message repeated 82 times
+[dvd @ 0x1fa0a80] Nav Packet
+[dvd @ 0x1fa0a80] Copied the buffer value to buf_out
+    Last message repeated 87 times
+[dvd @ 0x1fa0a80] Nav Packet
+[dvd @ 0x1fa0a80] Copied the buffer value to buf_out
+    Last message repeated 87 times
+[dvd @ 0x1fa0a80] Nav Packet
+[dvd @ 0x1fa0a80] Copied the buffer value to buf_out
+    Last message repeated 30 times
+[dvd @ 0x1fa0a80] The length of the current block is 86719
+    Last message repeated 2 times
+[dvd @ 0x1fa0a80] Hop Channel Packet
+[dvd @ 0x1fa0a80] Cell Change Packet
+[dvd @ 0x1fa0a80] SPU CLUT Packet
+[dvd @ 0x1fa0a80] SPU Stream Change
+[dvd @ 0x1fa0a80] Audio Stream Change
+[dvd @ 0x1fa0a80] Nav Packet
+[dvd @ 0x1fa0a80] Copied the buffer value to buf_out
+    Last message repeated 38 times
+[dvd @ 0x1fa0a80] Nav Packet
+[dvd @ 0x1fa0a80] Copied the buffer value to buf_out
+    Last message repeated 43 times
+[dvd @ 0x1fa0a80] Nav Packet
+[dvd @ 0x1fa0a80] Copied the buffer value to buf_out
+    Last message repeated 40 times
+[dvd @ 0x1fa0a80] The length of the current block is 86719
+    Last message repeated 1 times
+[dvd @ 0x1fa0a80] The length of the current block is 0
+    Last message repeated 1 times
+Input #0, mpeg, from 'dvd:/home/eejya/TasteofTea.ISO':
+  Duration: 00:00:01.12, start: 0.280633, bitrate: 1268575 kb/s
+    Stream #0:0[0x1e0]: Video: mpeg2video (Main), yuv420p(tv), 720x480 [SAR 32:27 DAR 16:9], max. 9800 kb/s, 29.97 fps, 29.97 tbr, 90k tbn, 59.94 tbc
+    Stream #0:1[0x80]: Audio: ac3, 48000 Hz, 5.1(side), fltp, 448 kb/s
+
